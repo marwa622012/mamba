@@ -473,16 +473,29 @@ ul{
         width: 82vw !important;
     }
     .input{
-        width: 35.5vw !important;
+        width: 32.2vw !important;
     }
     .forms{
-        width: 89vw !important;
+        width: 85vw !important;
         margin-left: 1vw !important;
-        padding-left: 2vw !important;
+        padding-left: 5vw !important;
     }
     .submit{
         width: 40vw !important;
         margin-left: 20vw !important;
+    }
+    #contact{
+        margin-left: 4vw !important;
+    }
+    
+    .footer{
+        margin-right: 4vw !important;
+    }
+}
+@media screen and (max-width : 255px){
+    .team{
+        top: 22vh !important;
+        height: 18vh !important;
     }
 }
 
