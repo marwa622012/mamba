@@ -386,16 +386,22 @@ ul{
         top: 45vh !important;
     }
 }
-@media screen and (max-width : 420px)and (min-width: 300px){
+/* @media screen and (max-width : 420px)and (min-width: 300px){ */
+    /* .phone{
+        font-size: 12px !important;
+    }
+    .link{
+        font-size: 12px !important;
+    } */
+
+
+@media screen and (max-width : 426px){
     .phone{
         font-size: 12px !important;
     }
     .link{
         font-size: 12px !important;
     }
-
-}
-@media screen and (max-width : 426px){
     .image-container{
         width: 92vw !important;
     }
@@ -424,6 +430,9 @@ ul{
     .submit{
         width: 30vw !important;
         margin-left: 25vw !important;
+    }
+    .image{
+        height: 90vh !important;
     }
 
 }
@@ -506,12 +515,6 @@ ul{
         height: 18vh !important;
     }
 }
-@media screen and (max-width : 300px){
-.team{
-    top: 22vh !important;
-    }
-}
-
 
 
 
