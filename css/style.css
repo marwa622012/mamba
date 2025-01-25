@@ -386,15 +386,6 @@ ul{
         top: 45vh !important;
     }
 }
-/* @media screen and (max-width : 420px)and (min-width: 300px){ */
-    /* .phone{
-        font-size: 12px !important;
-    }
-    .link{
-        font-size: 12px !important;
-    } */
-
-
 @media screen and (max-width : 426px){
     .phone{
         font-size: 12px !important;
@@ -474,7 +465,7 @@ ul{
         margin-left: 25vw !important;
     }
     .team{
-        top: 30vh !important;
+        top: 28vh !important;
     }
     .img-1{
         width: 81vw;
@@ -511,7 +502,7 @@ ul{
 }
 @media screen and (max-width : 300px){
     .team{
-        top: 28vh !important;
+        top: 20vh !important;
         height: 18vh !important;
     }
 }
