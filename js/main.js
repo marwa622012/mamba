@@ -51,6 +51,7 @@ let container = document.querySelector('#deep');
         
         
     });
+    
     document.getElementById("card").addEventListener("click", function () {
         filterImages("photo");
         
@@ -84,7 +85,7 @@ function counterAnimation(targetSelector,targetValue, duration) {
     } else {
        element.textContent = currentValue; // Update value
     }
-    }, 10); // Update every 10ms
+    }, 20); // Update every 10ms
 }
 // Start the counter animation on page load
 function startAnimation() {

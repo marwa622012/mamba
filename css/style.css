@@ -125,13 +125,10 @@ body{
 .media:hover{
     color: var(--color-4);
 }
-/* .images{
-    display: flex;
-    width: 90vw !important;
-} */
+
 .shadow{
     position: absolute !important;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.1);
     width: 100% !important;
     height: 100% !important;
 } 
@@ -234,7 +231,8 @@ ul{
 }
 
 .image{
-    height: 100vh !important;
+    height: 98vh !important;
+    
 }
 .image-container {
     position: relative;
@@ -304,7 +302,8 @@ ul{
 }
 @media screen and (max-width : 1441px)and (min-width: 769px){
     .team{
-        top: 38vh !important;
+        top: 25vh !important;
+        right: 3.3vw !important;
     }
     .input{
         width: 37.5vw !important;
@@ -339,6 +338,9 @@ ul{
     .nav-1-third{
         width: 37vw;
     }
+    /* .team{
+        top: 38vh !important;
+    } */
 }
 @media screen and (max-width : 769px){
     .input{
@@ -391,6 +393,7 @@ ul{
     .link{
         font-size: 12px !important;
     }
+
 }
 @media screen and (max-width : 426px){
     .image-container{
@@ -400,8 +403,9 @@ ul{
         width: 82vw !important;
     }
     .team {
-        top: 48vh !important;
+        top: 43vh !important;
         right: 10vw !important;
+        margin-bottom: 7vh !important;
     }
     .img-1{
         width: 90vw;
@@ -434,7 +438,8 @@ ul{
         width: 82vw !important;
     }
     .team{
-        top: 42vh !important;
+        top: 40vh !important;
+        
     }
     .input{
         width: 35vw !important;
@@ -451,8 +456,11 @@ ul{
     .paragraph{
         top:17vh;
     }
+    .team{
+    top: 35vh !important;
+    }
 }
-@media screen and (max-width : 320px){
+@media screen and (max-width : 321px){
     .submit{
         margin-left: 25vw !important;
     }
@@ -492,13 +500,17 @@ ul{
         margin-right: 4vw !important;
     }
 }
-@media screen and (max-width : 255px){
+@media screen and (max-width : 300px){
     .team{
-        top: 22vh !important;
+        top: 28vh !important;
         height: 18vh !important;
     }
 }
-
+@media screen and (max-width : 300px){
+.team{
+    top: 22vh !important;
+    }
+}
 
 
 
